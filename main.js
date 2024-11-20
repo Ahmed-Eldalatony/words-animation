@@ -1,51 +1,6 @@
-// const theWord = "Eldalatony is the BEST"
-
-// const randomLetters = ["c", "&", "b", "g", "i", "$", "z", "?", "r", "e"]
-
-// const container = document.getElementById("container")
-
-// const generateRandomColor = () => {
-//   let v1 = Math.round(Math.random() * 255)
-//   let v2 = Math.round(Math.random() * 255)
-//   let v3 = Math.round(Math.random() * 255)
-//   let randomColor = `${v1},${v2},${v3} `
-//   return randomColor
-// }
-
-// let wordIndex = 0
-
-// const animateWords = function (word) {
-//   let letter = document.createElement("span")
-//   container.appendChild(letter)
-//   for (let i = 0; i < randomLetters.length; i++) {
-//     setTimeout(() => {
-//       const color = generateRandomColor()
-//       if (wordIndex < word.length) {
-
-//         letter.textContent = randomLetters[i]
-//       }
-
-//       letter.style.color = `rgb(${color})`
-
-//       if (i == randomLetters.length - 1 && wordIndex < word.length) {
-//         letter.textContent = word[wordIndex]
-
-//         letter.style.color = "white"
-//         animateWords(theWord)
-//         wordIndex += 1
-//       }
-//     }, 20 * i);
-
-//   }
-// }
-
-// animateWords(theWord)
-
-
-
 
 // Define the text to be animated
-const theWord = "Eldalatony is the BEST";
+const theWord = "Eldalatony is the BEST:)";
 
 // Array of random letters for animation
 const randomLetters = ["c", "&", "b", "g", "i", "$", "z", "?", "r", "e"];
